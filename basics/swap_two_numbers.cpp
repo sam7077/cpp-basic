@@ -4,10 +4,11 @@ int main() {
     int a, b, temp;
     cout << "Enter two numbers: ";
     cin >> a >> b;
+    cout<<"Before swapping: " << a << " " << b << endl;
     temp = a;
     a = b;
     b = temp;
-    cout<<"Before swapping: " << a << " " << b << endl;
+    
     cout << "After swapping: " << a << " " << b << endl;
     return 0;
 }
